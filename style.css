@@ -151,3 +151,46 @@ header .navigation ul{
 .hero button:hover{
   transform: scale(1.2);
 }
+/* feature section */
+.features{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+.features .fe-box{
+  width: 180px;
+  height: auto;
+  background-color: rgb(235, 235, 235);
+  box-shadow: 2px 2px 7px gray;
+  padding: 12px 8px;
+  text-align: center;
+  transition: 0.5s ease-in;
+  cursor: pointer;
+}
+
+.features .fe-box h6{
+  margin: 10px 0;
+}
+
+.features .fe-box:hover{
+  transform: scale(1.1);
+}
+
+/* feture product section */
+
+#products-1{
+  text-align: center;
+}
+
+#products-1 .promo-card{
+  width: 30%;
+  height: auto;
+  background-color: #d3d3d3;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.promo-card img{
+  width: 100%;
+}
