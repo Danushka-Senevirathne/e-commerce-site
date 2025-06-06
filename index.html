@@ -7,24 +7,73 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>E Commerce site</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-        <link rel="stylesheet" href="style.css">
+        <!-- css -->
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/navbar.css">
+        <!-- remix icons -->
+        <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+        rel="stylesheet"
+         />
     </head>
 
     <body>
         <!-- navigation bar -->
         <header>
-            <a href="index.html"><img src="./img/logo.png" alt="main-logo"></a>
-            <div class="navigation">
-                <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                </ul>
-            </div>
+            <nav>
+                <!-- upper div -->
+                 <div class="upper-div">
+                 <!-- social media section -->
+                  <div class="social-icons">
+                    <i class="ri-facebook-line"></i>
+                    <i class="ri-youtube-line"></i>
+                    <i class="ri-instagram-line"></i>
+                    <i class="ri-whatsapp-line"></i>
+                    <i class="ri-pinterest-line"></i>
+                  </div>
+                  <!-- contact section -->
+                  
+                   <div class="contact-section">
+                   
+                    <span> <i class="ri-phone-line"></i>
+                    <p>+94 71 891 8918</p></span>
+                    
+                    <span><i class="ri-mail-line"></i>
+                    <p>techstore@gmail.com</p></span>
+                    
+                    <span><i class="ri-user-line"></i>
+                    <p>Account</p></span>
+                   </div>
+                 </div>
+                 <!-- bottom div -->
+                  <div class="bottom-div">
+                  <!-- logo -->
+                   <h3 class="logo">Tech Store</h3>
+                   <!-- nav list -->
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <!-- search bar -->
+                     <div class="search">
+                        <input type="text" placeholder="Search your tech items">
+                        <button>
+                            <i class="ri-search-line"></i>
+                        </button>
+                     </div>
+                     <!-- cart -->
+                      <div class="oparate">
+                        <i class="ri-shopping-cart-line"></i>
+                        <div class="mode">
+                            <i class="ri-sun-line"></i>
+                            <!-- <i class="ri-moon-line"></i> -->
+                        </div>
+                      </div>
+                  </div>    
+            </nav>
         </header>
         <!-- hero section -->
          <section class="hero">
