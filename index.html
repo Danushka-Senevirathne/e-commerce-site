@@ -15,6 +15,7 @@
         href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
         rel="stylesheet"
          />
+      
     </head>
 
     <body>
@@ -152,7 +153,7 @@
                             <i class="ri-arrow-down-s-fill"></i>
                         </div>
                         <div class="filter_container">
-                            <input type="text">
+                            <input type="text" id="search_laptop" onkeyup=search()>
                             <button>Search</button>
                             <div class="brand">
                                 <p>Dell</p>
@@ -198,9 +199,9 @@
                         
                     </div>
 
-                    <div class="laptop_container">
+                    <div class="laptop_container" id="laptop_container">
 
-                        <div class="laptop_card">
+                        <div class="laptop_card" id="apple Macbook">
                             <div class="lap_image">
                                  <img src="./img/laptop/fillter_laptop (1).jpg" alt="Laptop_card">
                             </div>
@@ -209,7 +210,7 @@
                             <button>View Specs</button>
                         </div>
                       
-                        <div class="laptop_card">
+                        <div class="laptop_card" id="lenovo windows">
                             <div class="lap_image">
                                  <img src="./img/laptop/fillter_laptop (2).jpg" alt="Laptop_card">
                             </div>
@@ -218,7 +219,7 @@
                             <button>View Specs</button>
                         </div>
                       
-                        <div class="laptop_card">
+                        <div class="laptop_card" id="apple Macbook">
                             <div class="lap_image">
                                  <img src="./img/laptop/fillter_laptop (3).jpg" alt="Laptop_card">
                             </div>
@@ -227,7 +228,7 @@
                             <button>View Specs</button>
                         </div>
                       
-                        <div class="laptop_card">
+                        <div class="laptop_card" id="asus windows">
                             <div class="lap_image">
                                  <img src="./img/laptop/fillter_laptop (4).jpg" alt="Laptop_card">
                             </div>
@@ -293,7 +294,7 @@
                         <i class="ri-arrow-down-s-fill"></i>
                     </div>
                     <div class="filter_container">
-                        <input type="text">
+                        <input type="text" id="accesorries_search_text" onkeyup=searchAccesories()>
                         <button>Search</button>
                         <div class="brand">
                             <p>Laptop Charger</p>
@@ -341,7 +342,7 @@
 
                 <div class="laptop_container">
 
-                    <div class="laptop_card">
+                    <div class="laptop_card accessories_card">
                         <div class="lap_image">
                              <img src="./img/laptop/accessories_charger (1).png" alt="Laptop_card">
                         </div>
@@ -350,7 +351,7 @@
                         <button>View Specs</button>
                     </div>
                   
-                    <div class="laptop_card">
+                    <div class="laptop_card accessories_card">
                         <div class="lap_image">
                              <img src="./img/laptop/accessories_charger (4).jpg" alt="Laptop_card">
                         </div>
@@ -359,7 +360,7 @@
                         <button>View Specs</button>
                     </div>
                   
-                    <div class="laptop_card">
+                    <div class="laptop_card accessories_card">
                         <div class="lap_image">
                              <img src="./img/laptop/accessories_charger (6).jpg" alt="Laptop_card">
                         </div>
@@ -368,7 +369,7 @@
                         <button>View Specs</button>
                     </div>
                   
-                    <div class="laptop_card">
+                    <div class="laptop_card accessories_card">
                         <div class="lap_image">
                              <img src="./img/laptop/accessories_charger (8).png" alt="Laptop_card">
                         </div>
@@ -377,7 +378,7 @@
                         <button>View Specs</button>
                     </div>
                   
-                    <div class="laptop_card">
+                    <div class="laptop_card accessories_card">
                         <div class="lap_image">
                              <img src="./img/laptop/accessories_charger (11).png" alt="Laptop_card">
                         </div>
@@ -386,7 +387,7 @@
                         <button>View Specs</button>
                     </div>
                   
-                    <div class="laptop_card">
+                    <div class="laptop_card accessories_card">
                         <div class="lap_image">
                              <img src="./img/laptop/accessories_charger (7).jpg" alt="Laptop_card">
                         </div>
@@ -395,7 +396,7 @@
                         <button>View Specs</button>
                     </div>
                   
-                    <div class="laptop_card">
+                    <div class="laptop_card accessories_card">
                         <div class="lap_image">
                              <img src="./img/laptop/accessories_charger (13).png" alt="Laptop_card">
                         </div>
@@ -404,7 +405,7 @@
                         <button>View Specs</button>
                     </div>
                   
-                    <div class="laptop_card">
+                    <div class="laptop_card accessories_card">
                         <div class="lap_image">
                              <img src="./img/laptop/accessories_charger (9).png" alt="Laptop_card">
                         </div>
@@ -457,7 +458,8 @@
                 <h4>Developed by danushka Senevirathne <span>2025</span></h4>
             </section>
 
-        <script src="script.js"></script>
+        <script type="module" src="script.js"></script>
+        <script src="./js/laptopSearch.js"></script>
     </body>
 
 </html>
